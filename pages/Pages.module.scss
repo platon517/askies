@@ -1,0 +1,13 @@
+.anonText{
+  font-weight: 200;
+  flex-grow: 2;
+  text-align: center;
+  .lock{
+    font-size: 1.25rem;
+  }
+  .login{
+    margin-left: 0.5rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

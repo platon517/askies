@@ -1,0 +1,54 @@
+.form_radio{
+  margin-top: 1rem;
+}
+.radios{
+  cursor: pointer;
+  display: block;
+  padding: 0.5rem 0;
+  font-weight: 200;
+  color: lighten(black, 20%);
+  input[type='radio'] {
+    padding: 0;
+    margin-left: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  .skeletonName{
+    background-color: #eeeeee;
+    color: transparent;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+  }
+  .name{
+    padding-left: 0.5rem;
+  }
+  &:hover{
+    color: black;
+  }
+}
+
+.checkMark{
+  margin-left: 0.5rem;
+  font-weight: 400;
+}
+
+.percents{
+  display: inline-flex;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+}
+
+.progress{
+  margin-top: 0.5rem;
+  height: 1px;
+  background-color: black;
+  transition: all 1s ease-in-out;
+}
+
+.viewResults{
+  font-weight: 200;
+  cursor: pointer;
+  &:hover{
+    text-decoration: underline;
+  }
+}
