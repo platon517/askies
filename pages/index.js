@@ -5,7 +5,7 @@ import {AuthContext} from "./_app";
 import styles from "./Pages.module.scss";
 import { useRouter } from "next/router";
 
-export const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://192.168.0.16:8000' : 'http://5.53.124.111:8080'
+export const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://192.168.0.16:8000' : 'https://askies-server.herokuapp.com'
 
 
 export default function Main() {
