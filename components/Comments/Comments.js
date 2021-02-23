@@ -48,13 +48,13 @@ const Comments = ({comments, updateAskie}) => {
     setReplyTo(null);
   };
 
-  const enterHandler = useCallback(e => {
+  const enterHandler = async e => {
     if(e.key === 'Enter') {
       e.preventDefault();
       e.stopPropagation();
-      postComment();
+      await postComment();
     }
-  }, [replyTo])
+  };
 
   const loginHandler = async () => {
     await router.push({
